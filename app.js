@@ -10,7 +10,7 @@ server.use("/js",express.static(path.join(__dirname,"./js")));
 
 server.get("/",function (req,res){
     res.render("index",{
-        pageTitle: "Lekcja Node",
+        pageTitle: "Lekcja Node - WSB Kato",
         title: functions.someText,
         subTitle: functions.someFunction(),
         subsubTitle: x>10 ? functions.someFunction() : null
